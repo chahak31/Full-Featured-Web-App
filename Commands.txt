@@ -1,0 +1,40 @@
+A. Create virtual environment
+
+1. cd Environments
+2. virtualenv 'Name of the project/env'
+3. (install required libraries in it)
+
+B. Activate the created virtualenv
+
+1. source 'Name of the virtual env'/bin/activate
+
+C.1 Start the project 
+
+1. cd flaskblog
+2. export FLASK_APP = flaskblog.py
+3. flask run
+
+C.2 Start the Project in Debug mode
+
+1. export FLASK_DEBUG = 1
+2. flask run 
+
+C.3 Another method to start the project 
+(when the debug=True is already written in flaskblog.py)
+
+1. python flaskblog.py
+
+D. Stop the project 
+
+1. Ctrl + c
+
+E. Deactivate the virtualenv
+
+1. deactivate
+
+to check all the libraries: pip list
+
+LIBRARIES FOR FLASK 
+
+1. pip install flask_wtf (form validations)
+2. pip install email_validator
